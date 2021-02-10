@@ -7,7 +7,7 @@ define host {
         use                          linux-server
         host_name                    client01
         alias                        Ubuntu Host
-        address                      172.16.0.6
+        address                      ip-private-Client01
         register                     1
 }
 
